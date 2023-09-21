@@ -14,4 +14,5 @@ int max = a;
 if (max < b) max = b;
 if (max < c) max = c;
 
-System.Console.WriteLine("Максимальное из этих чисел = " + max);
+/*Console.WriteLine("Максимальное из этих чисел = " + max);*/
+Console.WriteLine($"{a}, {b}, {c} - > " + max);
